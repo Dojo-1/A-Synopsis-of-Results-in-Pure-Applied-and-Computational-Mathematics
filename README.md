@@ -26,7 +26,7 @@
 
 ## ◯ 2026 unified edition
 
-This repository is the publication home of a registry-first mathematical synopsis spanning foundations, number/algebra/discrete structure, analysis, geometry/topology, and a research frontier in p-adic hypercomplex / Cayley–Dickson Cosmo-\(n\) structures.
+A registry-first mathematical synopsis spanning foundations, number/algebra/discrete structure, analysis, geometry/topology, and a research frontier in p-adic hypercomplex / Cayley–Dickson Cosmo-\(n\) structures.
 
 The editorial object is not the PDF alone.
 
@@ -42,12 +42,7 @@ editorial projections
       └── §-LANG / s1 reversible symbolic transport
 ```
 
-### Read
-
-- **[2026 Unified Edition — corrected & editorial-proofed PDF](editions/Synopsis_2026_Unified_Edition_v1.1.pdf)**
-- **[§-LANG / s1 translated edition](editions/Synopsis_2026_sLANG_S1_Edition_v1.1.pdf)**
-
-<sub>The §-LANG edition is a symbolic transport of the reviewed registry. Translation does not promote theorem evidence or imply runtime execution.</sub>
+**[Edition manifest, checksums & publication filenames →](editions/README.md)**
 
 ---
 
@@ -55,66 +50,65 @@ editorial projections
 
 | | Volume | Canonical IDs | Field |
 |---|---|---:|---|
-| **0** | Foundations, Language, Registry & Epistemic Protocol | `1–1000` | mathematical substrate, evidence discipline, analysis/PDE/probability/numerics/geometry interfaces |
-| **I** | Number, Algebra & Discrete Structure | `1001–2000` | arithmetic, algebra, combinatorics, graphs, finite structures |
-| **II** | Analysis | `2001–3000` | real/complex/harmonic/functional/operator analysis and evolution interfaces |
-| **III** | Geometry & Topology | `3001–4000` | topology, homotopy, (co)homology, manifolds, bundles, curvature, global geometry |
-| **IV** | p-adic Hypercomplex Hyperdimensional Continuum | `4001–5000` | Cosmo-\(n\), orbifolds, Cayley–Dickson strata, local fields, recursive/infinitesimal/spectral research interfaces |
+| **0** | Foundations, Language, Registry & Epistemic Protocol | `1–1000` | mathematical substrate + evidence discipline |
+| **I** | Number, Algebra & Discrete Structure | `1001–2000` | arithmetic · algebra · combinatorics · finite structure |
+| **II** | Analysis | `2001–3000` | real · complex · harmonic · functional · operator analysis |
+| **III** | Geometry & Topology | `3001–4000` | topology · manifolds · bundles · curvature · global geometry |
+| **IV** | p-adic Hypercomplex Hyperdimensional Continuum | `4001–5000` | Cosmo-\(n\) · local fields · Cayley–Dickson · recursive/spectral frontier |
 
-Volume IV deliberately separates seven coordinates rather than flattening them into one notion of “dimension”:
+Volume IV keeps seven coordinates distinct rather than flattening them into a single idea of “dimension”:
 
 \[
 \mathfrak C_{n,k,v,j,\varepsilon,t,\alpha}
 \]
 
-`n` geometry · `k` Cayley–Dickson depth · `v` arithmetic place · `j` recursive depth · `ε` local scale · `t` Hamiltonian phase · `α` chart / peer section.
+`n` geometry · `k` Cayley–Dickson depth · `v` arithmetic place · `j` recursion · `ε` local scale · `t` Hamiltonian phase · `α` chart / peer section
 
 ---
 
 ## 証拠 · evidence before aura
 
-The project uses explicit epistemic states.
-
 | State | Meaning |
 |---|---|
-| `A` | accepted/assumed mathematical statement under declared scope; not independently proved by this project |
+| `A` | accepted/assumed exact mathematical statement under declared scope |
 | `M` | measured or deterministically computed under a declared procedure |
-| `H` | active hypothesis / conjectural research statement |
+| `H` | active hypothesis / conjecture |
 | `S` | semantic, architectural, editorial or governance object |
 | `P` | independently proved / definitionally closed for the exact registered claim |
-| `R` | retired or superseded interpretation retained in correction history |
+| `R` | retired or superseded interpretation retained in history |
 
-The reviewed 1–5000 snapshot intentionally contains **no automatic theorem promotion to `P`**. Finite computation is not a proof of the governing theorem. A clean dependency graph is not a proof of mathematical truth. A beautiful diagram is not evidence of physical realizability.
+The reviewed snapshot intentionally performs **no automatic theorem promotion to `P`**.
+
+```text
+finite computation ≠ theorem proof
+clean graph         ≠ mathematical truth
+beautiful diagram  ≠ physical evidence
+translation        ≠ identity
+```
 
 > **レビュー境界 — review boundary**  
-> “Peer reviewed” here means the repository’s cross-volume, correction-preserving internal peer-review/audit process. It does **not** mean external journal peer review or independent re-proof of every theorem.
+> “Peer reviewed” here means the project’s correction-preserving cross-volume internal review/audit. It does not mean external journal peer review or independent re-proof of every theorem.
 
 ---
 
-## 間 · the design principle
+## 間 · quiet structure
 
-This repository intentionally avoids the usual badge wall, maximalist dashboard and “everything is solved” posture.
+This repository avoids badge walls, maximalist dashboards and the posture that everything is solved.
 
-**Ma / 間** — preserve informative space.  
-**Shibui / 渋い** — restrained detail over decorative noise.  
-**Kintsugi / 金継ぎ** — corrections remain visible instead of being silently painted over.  
-**Kaizen / 改善** — bounded iteration over grand finality.
+**間 · Ma** — informative space.  
+**渋い · Shibui** — restrained detail.  
+**金継ぎ · Kintsugi** — corrections remain visible.  
+**改善 · Kaizen** — bounded iteration instead of grand finality.
 
 The aesthetic rule is also an epistemic rule:
 
-```text
-statement ≠ evidence
-model ≠ world
-projection ≠ source
-computation ≠ theorem
-translation ≠ identity
-```
+> Preserve enough space to see where the claim ends and the evidence begins.
 
 ---
 
 ## §-LANG / s1
 
-The companion §-LANG projection transports each canonical record into a typed symbolic surface while preserving its address, exact mathematical statement, assumptions, hard dependencies, provenance, evidence state and correction history.
+The companion §-LANG projection transports each canonical record into a typed symbolic surface while preserving address, exact statement, assumptions, hard dependencies, provenance, evidence status and correction history.
 
 ```text
 §|LANG|SYNOPSIS_ENTRY{
@@ -127,42 +121,36 @@ The companion §-LANG projection transports each canonical record into a typed s
 }
 ```
 
-The rule is reversible transport, not semantic inflation:
-
-\[
-T(x \to \text{§-LANG}) = (\text{projection},\; \text{preserved},\; \text{transformed},\; \text{remainder})
-\]
-
-A zero remainder is not assumed unless equivalence is actually established.
+The transport is reversible in the publication build. It does not itself assert runtime semantics or increase theorem authority.
 
 ---
 
-## 余白のグラフ · a living graph, not a finished monument
-
-The Synopsis is built so later volumes can reuse frozen identifiers rather than silently redefine foundations.
+## 余白のグラフ · the graph may grow
 
 ```text
 Volume 0 ── foundation substrate
     │
-    ├── Volume I   number / algebra / discrete
-    ├── Volume II  analysis
-    ├── Volume III geometry / topology
-    └── Volume IV  hypercomplex / p-adic / Cosmo-n frontier
+    ├── Volume I    number / algebra / discrete
+    ├── Volume II   analysis
+    ├── Volume III  geometry / topology
+    └── Volume IV   hypercomplex / p-adic / Cosmo-n frontier
 ```
 
-The graph is allowed to grow. The history is not allowed to disappear.
+Later volumes reuse frozen identifiers rather than silently redefining their foundations.
+
+**The graph may grow. The history may not disappear.**
 
 ---
 
-## Research posture
+## Contributions
 
-The project welcomes three kinds of contribution most:
+The most valuable contribution is not necessarily another theorem.
 
-1. **exact corrections** — a hypothesis, scope, sign, dependency or theorem statement that needs repair;
-2. **independent witnesses** — formal proofs, primary sources, reference implementations or reproducible computations that support an exact registered claim;
-3. **better bridges** — connections between fields that preserve assumptions and expose what is lost in transport.
+- **exact correction** — repair a hypothesis, scope, sign, dependency or formulation;
+- **independent witness** — attach a primary source, formal proof, reference implementation or reproducible computation;
+- **better bridge** — connect fields while preserving assumptions and naming the remainder.
 
-A contribution that narrows an over-strong statement is progress.
+A narrower true statement is preferred to a wider unsupported one.
 
 ---
 
