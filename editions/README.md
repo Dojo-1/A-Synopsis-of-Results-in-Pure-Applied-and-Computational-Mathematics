@@ -4,9 +4,7 @@
 
 Canonical publication artifact:
 
-```text
-Synopsis_2026_Unified_Edition_v1.1.pdf
-```
+[Download the 2026 Unified Edition (PDF)](Synopsis_2026_Unified_Edition_v1.1.pdf)
 
 Source artifact used for this publication slot:
 
@@ -23,9 +21,7 @@ Synopsis_2026_Volumes_0-IV_Peer_Reviewed_Consolidated_v1.1.pdf
 
 ### Companion §-LANG / s1 edition
 
-```text
-Synopsis_2026_sLANG_S1_Edition_v1.1.pdf
-```
+[Download the companion §-LANG / s1 edition (PDF)](Synopsis_2026_sLANG_S1_Edition_v1.1.pdf)
 
 Source artifact:
 
