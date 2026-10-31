@@ -60,6 +60,17 @@ python3 reconstruction/append_plates.py \
   --output /path/to/Synopsis_Reconstructed_Reader_With_Source_Plates_v0.1.pdf
 ```
 
+Then mechanically verify the full regenerated reader (including the five appended source plates):
+
+```sh
+python3 reconstruction/qa_rebuilt.py \
+  --registry /path/to/recovered/REGISTRY_00000001_00005000_REVIEWED.jsonl \
+  --reader /path/to/Synopsis_Reconstructed_Reader_With_Source_Plates_v0.1.pdf \
+  --report /path/to/rebuilt_pdf_QA.json
+```
+
+The locally validated 640-page output achieved **5,000/5,000** exact record headings, statements (after Unicode NFKC and whitespace normalization), evidence labels and hard-dependency lists, with zero out-of-bounds text spans and five preserved source-plate pages.
+
 `render_registry.py` currently uses installed DejaVu Sans TrueType files at `/usr/share/fonts/truetype/dejavu/`. The typography is a new **editorial projection**, not the original A4 page breaks. It includes record IDs, titles, statements, status, typed dependencies, explicit assumptions, and peer-review corrections; the JSONL retains **all** fields.
 
 These scripts and their documented outputs were exercised locally on the source files. They are not yet integrated as a CI job because the exact reversible `.lang` source is not distributed in this repository.
