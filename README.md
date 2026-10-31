@@ -4,7 +4,7 @@
 
 # A Synopsis of Results in Pure, Applied and Computational Mathematics
 
-### 2026 Unified Edition
+### 2026 Unified Edition · v1.1
 
 **PURE · APPLIED · COMPUTATIONAL · HYPERCOMPLEX**
 
@@ -13,7 +13,7 @@
 
 <br>
 
-**5,000 canonical objects** · **Volumes 0–IV** · **one connected dependency graph**
+**5,000 canonical records** · **Volumes 0–IV** · **6,924 recorded hard dependencies**
 
 <br>
 
@@ -24,147 +24,142 @@
 
 ---
 
-## ◯ 2026 unified edition
+## ◯ A map, not a victory lap
 
-A registry-first mathematical synopsis spanning foundations, number/algebra/discrete structure, analysis, geometry/topology, and a research frontier in p-adic hypercomplex / Cayley–Dickson Cosmo-\(n\) structures.
+This synopsis brings foundations, number theory and algebra, analysis, geometry and topology, and a p-adic / hypercomplex research frontier into a common editorial frame.
 
-The editorial object is not the PDF alone.
+Its organizing question is simple to ask and difficult to exhaust:
 
-```text
-canonical registry
-      ↓
-dependency graph
-      ↓
-evidence + correction history
-      ↓
-editorial projections
-      ├── human-readable Unified Edition
-      └── §-LANG / s1 reversible symbolic transport
-```
+> **What survives a change of mathematical representation—and what assumptions, obstructions or evidence must remain attached to the passage?**
 
-**[Edition manifest, checksums & publication filenames →](editions/README.md)**
+The edition catalogues **5,000 records**, not 5,000 newly proved theorems. Records may describe an accepted or assumed statement, a computation, a hypothesis, a semantic or architectural object, a proved claim, or a retired interpretation. Their evidence statuses are part of the content, not an afterthought.
+
+Two reading surfaces are available:
+
+| Edition | Publication artifact |
+|---|---|
+| **Unified Edition** · 467 A4 pages | [Read the human-facing synopsis (PDF)](editions/Synopsis_2026_Unified_Edition_v1.1.pdf) |
+| **§-LANG / s1** · 437 A4 pages | [Read the symbolic companion (PDF)](editions/Synopsis_2026_sLANG_S1_Edition_v1.1.pdf) |
+
+[**Edition manifest, source names and recorded checksums →**](editions/README.md)
 
 ---
 
 ## 五巻 · five volumes
 
-| | Volume | Canonical IDs | Field |
+| | Volume | Canonical IDs | Scope |
 |---|---|---:|---|
-| **0** | Foundations, Language, Registry & Epistemic Protocol | `1–1000` | mathematical substrate + evidence discipline |
-| **I** | Number, Algebra & Discrete Structure | `1001–2000` | arithmetic · algebra · combinatorics · finite structure |
+| **0** | Foundations, Language, Registry & Epistemic Protocol | `1–1000` | mathematical foundations and evidence discipline |
+| **I** | Number, Algebra & Discrete Structure | `1001–2000` | arithmetic · algebra · combinatorics · finite structures |
 | **II** | Analysis | `2001–3000` | real · complex · harmonic · functional · operator analysis |
 | **III** | Geometry & Topology | `3001–4000` | topology · manifolds · bundles · curvature · global geometry |
 | **IV** | p-adic Hypercomplex Hyperdimensional Continuum | `4001–5000` | Cosmo-\(n\) · local fields · Cayley–Dickson · recursive/spectral frontier |
 
-Volume IV keeps seven coordinates distinct rather than flattening them into a single idea of “dimension”:
+Volume IV keeps seven **roles** distinct rather than calling them all “dimension”:
 
-\[
+$$
 \mathfrak C_{n,k,v,j,\varepsilon,t,\alpha}
-\]
+$$
 
-`n` geometry · `k` Cayley–Dickson depth · `v` arithmetic place · `j` recursion · `ε` local scale · `t` Hamiltonian phase · `α` chart / peer section
+`n` geometry · `k` Cayley–Dickson depth · `v` arithmetic place · `j` recursion · `ε` local scale · `t` Hamiltonian phase · `α` chart / peer section.
+
+These indices identify different kinds of structure. The notation alone does not assert an existence theorem, physical model, or compatibility between all choices.
 
 ---
 
 ## 証拠 · evidence before aura
 
-| State | Meaning |
+The project records six evidence states. They are **editorial classifications**, not interchangeable proof certificates.
+
+| State | Reading |
 |---|---|
-| `A` | accepted/assumed exact mathematical statement under declared scope |
-| `M` | measured or deterministically computed under a declared procedure |
-| `H` | active hypothesis / conjecture |
-| `S` | semantic, architectural, editorial or governance object |
-| `P` | independently proved / definitionally closed for the exact registered claim |
-| `R` | retired or superseded interpretation retained in history |
+| `A` | accepted or assumed exact statement **under a declared scope**; acceptance is not an independent proof supplied here |
+| `M` | measured or deterministically computed **under a declared procedure and finite scope** |
+| `H` | active hypothesis or conjecture |
+| `S` | semantic, architectural, editorial or governance object—not a proved mathematical proposition |
+| `P` | independently proved or definitionally closed **for the exact registered claim**; definitional closure must be distinguished from a nontrivial theorem proof |
+| `R` | retired or superseded interpretation, retained for the correction record |
 
-The reviewed snapshot intentionally performs **no automatic theorem promotion to `P`**.
+The reviewed snapshot performs **no automatic promotion to `P`**.
 
-```text
+~~~text
 finite computation ≠ theorem proof
-clean graph         ≠ mathematical truth
-beautiful diagram  ≠ physical evidence
+dependency label   ≠ proved implication
+clean graph        ≠ mathematical truth
 translation        ≠ identity
-```
+beautiful diagram  ≠ physical evidence
+~~~
 
-> **レビュー境界 — review boundary**  
-> “Peer reviewed” here means the project’s correction-preserving cross-volume internal review/audit. It does not mean external journal peer review or independent re-proof of every theorem.
-
----
-
-## 間 · quiet structure
-
-This repository avoids badge walls, maximalist dashboards and the posture that everything is solved.
-
-**間 · Ma** — informative space.  
-**渋い · Shibui** — restrained detail.  
-**金継ぎ · Kintsugi** — corrections remain visible.  
-**改善 · Kaizen** — bounded iteration instead of grand finality.
-
-The aesthetic rule is also an epistemic rule:
-
-> Preserve enough space to see where the claim ends and the evidence begins.
+**Review boundary.** The edition's “peer reviewed” designation means its internal, correction-preserving, cross-volume review/audit. It does **not** mean external journal peer review or an independent re-proof of all entries.
 
 ---
 
-## §-LANG / s1
+## 間 · what the reader can inspect
 
-The companion §-LANG projection transports each canonical record into a typed symbolic surface while preserving address, exact statement, assumptions, hard dependencies, provenance, evidence status and correction history.
+The synopsis describes a registry-first publication model:
 
-```text
+~~~text
+canonical registry
+      ↓
+dependency map + evidence / correction history
+      ↓
+editorial projections
+      ├── Unified Edition · human-readable PDF
+      └── §-LANG / s1 · symbolic PDF
+~~~
+
+**Availability boundary.** This repository currently distributes the two rendered PDFs, their manifest, and this README. It does **not** include the machine-readable source registry, a dependency-graph export, the underlying correction ledger, or the generation/verification programs. The recorded counts and the claimed properties of the full publication pipeline are therefore **not independently reproducible from this repository snapshot alone**.
+
+The PDFs can be read and critiqued as published editions. Readers seeking to audit a particular dependency, status assignment, proof, or correction should treat the corresponding primary evidence as a separate requirement.
+
+---
+
+## §-LANG / s1 · a second reading surface
+
+The companion edition expresses canonical entries in a typed symbolic vocabulary, including their addresses, statements, assumptions, dependencies, provenance, evidence states and remainders.
+
+~~~text
 §|LANG|SYNOPSIS_ENTRY{
-  id       = S26-…
-  form     = exact_registered_statement
-  evidence = A | M | H | S | P | R
-  assume   = [...]
-  dep_hard = [...]
-  remainder= [...]
+  id        = S26-…
+  form      = exact_registered_statement
+  evidence  = A | M | H | S | P | R
+  assume    = [...]
+  dep_hard  = [...]
+  remainder = [...]
 }
-```
+~~~
 
-The transport is reversible in the publication build. It does not itself assert runtime semantics or increase theorem authority.
+The publication model specifies reversible transport across the 5,000 records. **The companion PDF is provided here; a runnable round-trip verifier is not.** Reversibility is thus a documented project property, not an independently verified claim established by the files in this repository.
 
----
-
-## 余白のグラフ · the graph may grow
-
-```text
-Volume 0 ── foundation substrate
-    │
-    ├── Volume I    number / algebra / discrete
-    ├── Volume II   analysis
-    ├── Volume III  geometry / topology
-    └── Volume IV   hypercomplex / p-adic / Cosmo-n frontier
-```
-
-Later volumes reuse frozen identifiers rather than silently redefining their foundations.
-
-**The graph may grow. The history may not disappear.**
+No symbolic translation, however faithful, increases the proof authority of its source.
 
 ---
 
-## Contributions
+## 余白 · room for correction
 
-The most valuable contribution is not necessarily another theorem.
+**間 · Ma** — the space needed to see a claim's boundary.  
+**渋い · Shibui** — detail without display.  
+**金継ぎ · Kintsugi** — a correction remains part of the object.  
+**改善 · Kaizen** — bounded iteration, not theatrical finality.
 
-- **exact correction** — repair a hypothesis, scope, sign, dependency or formulation;
-- **independent witness** — attach a primary source, formal proof, reference implementation or reproducible computation;
-- **better bridge** — connect fields while preserving assumptions and naming the remainder.
+Corrections, counterexamples and narrower true statements are contributions, not blemishes. In particular, welcome are an exact scope repair, an independent witness (primary source, proof, formalization or reproducible computation), or a bridge between fields that names what does **not** survive transport.
 
-A narrower true statement is preferred to a wider unsupported one.
+The graph may grow. The history may not disappear.
 
 ---
 
 ## Citation
 
-```bibtex
-@book{vilela2026synopsis,
-  author    = {Jesús Vilela Jato},
-  title     = {A Synopsis of Results in Pure, Applied and Computational Mathematics},
-  subtitle  = {2026 Unified Edition},
-  year      = {2026},
-  note      = {Registry-first, correction-preserving research edition}
+~~~bibtex
+@misc{vilela2026synopsis,
+  author       = {Jesús Vilela Jato},
+  title        = {A Synopsis of Results in Pure, Applied and Computational Mathematics},
+  year         = {2026},
+  howpublished = {2026 Unified Edition, version 1.1},
+  url          = {https://github.com/jesusvilela/A-Synopsis-of-Results-in-Pure-Applied-and-Computational-Mathematics},
+  note         = {Independent research synopsis; registry-first, correction-preserving edition}
 }
-```
+~~~
 
 ---
 
@@ -178,6 +173,6 @@ A narrower true statement is preferred to a wider unsupported one.
 
 <br>
 
-`2026 · v1.1 · 5000 canonical objects`
+`2026 · v1.1 · 5000 canonical records`
 
 </div>
