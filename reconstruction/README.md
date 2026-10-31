@@ -37,6 +37,33 @@ This decoder uses only the Python standard library, fails closed on a mismatch, 
 
 A separate local rendering experiment produced a **640-page reader projection** (635 typeset pages plus the five original Volume IV visual-plate facsimiles). It preserves every canonical record and uses a font covering the source’s mathematical glyphs, but is **not** a page-identical facsimile and does not replace v1.1.
 
+## Rebuild and compare the PDF reading surfaces
+
+With the exact recovered JSONL and both original v1.1 PDFs available locally:
+
+```sh
+python3 -m pip install -r reconstruction/requirements.txt
+
+python3 reconstruction/check_pdfs.py \
+  --registry /path/to/recovered/REGISTRY_00000001_00005000_REVIEWED.jsonl \
+  --unified /path/to/Synopsis_2026_Volumes_0-IV_Peer_Reviewed_Consolidated_v1.1.pdf \
+  --slang /path/to/Synopsis_2026_Volumes_0-IV_sLANG_S1_Translated_Peer_Reviewed_v1.1.pdf \
+  --out /path/to/audit-output/
+
+python3 reconstruction/render_registry.py \
+  --registry /path/to/recovered/REGISTRY_00000001_00005000_REVIEWED.jsonl \
+  --output /path/to/Synopsis_Reconstructed_Reader_Edition_v0.1.pdf
+
+python3 reconstruction/append_plates.py \
+  --reader /path/to/Synopsis_Reconstructed_Reader_Edition_v0.1.pdf \
+  --source /path/to/Synopsis_2026_Volumes_0-IV_Peer_Reviewed_Consolidated_v1.1.pdf \
+  --output /path/to/Synopsis_Reconstructed_Reader_With_Source_Plates_v0.1.pdf
+```
+
+`render_registry.py` currently uses installed DejaVu Sans TrueType files at `/usr/share/fonts/truetype/dejavu/`. The typography is a new **editorial projection**, not the original A4 page breaks. It includes record IDs, titles, statements, status, typed dependencies, explicit assumptions, and peer-review corrections; the JSONL retains **all** fields.
+
+These scripts and their documented outputs were exercised locally on the source files. They are not yet integrated as a CI job because the exact reversible `.lang` source is not distributed in this repository.
+
 ## Integrity boundaries
 
 - Original `editions/` PDFs remain the historical references.
