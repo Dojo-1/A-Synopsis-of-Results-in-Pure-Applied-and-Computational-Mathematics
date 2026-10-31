@@ -53,15 +53,15 @@ Two reading surfaces are available:
 | **I** | Number, Algebra & Discrete Structure | `1001–2000` | arithmetic · algebra · combinatorics · finite structures |
 | **II** | Analysis | `2001–3000` | real · complex · harmonic · functional · operator analysis |
 | **III** | Geometry & Topology | `3001–4000` | topology · manifolds · bundles · curvature · global geometry |
-| **IV** | p-adic Hypercomplex Hyperdimensional Continuum | `4001–5000` | Cosmo-\(n\) · local fields · Cayley–Dickson · recursive/spectral frontier |
+| **IV** | p-adic Hypercomplex Hyperdimensional Continuum | `4001–5000` | Cosmo-$n$ · local fields · Cayley–Dickson · recursive/spectral frontier |
 
 Volume IV keeps seven **roles** distinct rather than calling them all “dimension”:
 
-$$
+```math
 \mathfrak C_{n,k,v,j,\varepsilon,t,\alpha}
-$$
+```
 
-`n` geometry · `k` Cayley–Dickson depth · `v` arithmetic place · `j` recursion · `ε` local scale · `t` Hamiltonian phase · `α` chart / peer section.
+$n$ geometry · $k$ Cayley–Dickson depth · $v$ arithmetic place · $j$ recursion · $\varepsilon$ local scale · $t$ Hamiltonian phase · $\alpha$ chart / peer section.
 
 These indices identify different kinds of structure. The notation alone does not assert an existence theorem, physical model, or compatibility between all choices.
 
