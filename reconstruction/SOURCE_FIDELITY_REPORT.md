@@ -25,6 +25,11 @@ Scope: independent local **binary identity**, **lossless registry recovery**, **
 | `S26-T-00003510` | 330 | 290 |
 | `S26-D-00003916` | 360 | 322 |
 
-**Generated reader projection:** a 635-page typeset edition plus unchanged original Volume IV visual plates (published source PDF pp. 369–373), totaling **640 pages**. QA found 5,000 unique sequential record headings, no missing source mathematical Unicode glyphs, and zero out-of-page text spans in a full geometry scan. The generated PDF remains an **unreviewed editorial artifact**, not a replacement edition.
+**Generated reader projection:** a 635-page typeset edition plus unchanged original Volume IV visual plates (published source PDF pp. 369–373), totaling **640 pages**. QA found 5,000 unique sequential record headings, **5,000/5,000 statements reproduced after NFKC + whitespace normalization**, **5,000/5,000 evidence labels**, **5,000/5,000 hard-dependency lists**, no missing source mathematical Unicode glyphs, and zero out-of-page text spans in a full geometry scan. These tests establish rendered-text fidelity, not theorem validity. The generated PDF remains an **unreviewed editorial artifact**, not a replacement edition.
 
 **Remaining obligations:** review complete record metadata before publishing the reconstructed JSONL, preserve further historical corrections, verify mathematics theorem-by-theorem, and perform full visual QA. Structural agreement is not proof correctness.
+
+**Local output SHA-256 (draft artifacts, not released PDFs):**
+
+- Complete 635-page source-derived reader: `3b4a30f5dd862f14e3274c73f66d394da888cdfa427309c9c2047d3ec53e5a1e`
+- Reader plus five original visual-plate pages, 640 pages: `12029dc2b4a0d31246d4cb78e46e75906dead4a1921556495131edfb05c1f4d5`
